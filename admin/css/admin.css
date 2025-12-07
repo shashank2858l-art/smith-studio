@@ -1,0 +1,53 @@
+body.admin-body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #f0f2f5; }
+.admin-login-card {
+  max-width: 360px; margin: 10vh auto; background: #fff; padding: 2rem;
+  border-radius: 0.75rem; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center;
+}
+.admin-login-card input {
+  width: 100%; margin-bottom: 0.8rem; padding: 0.6rem; border-radius: 0.4rem; border: 1px solid #ddd;
+}
+.admin-login-card button {
+  width: 100%; padding: 0.7rem; border: none; border-radius: 0.4rem;
+  background: #111827; color: #fff; font-weight: 600; cursor: pointer;
+}
+
+/* layout */
+.admin-layout { display: flex; min-height: 100vh; }
+.sidebar {
+  width: 220px; background: #111827; color: #e5e7eb; padding: 1.5rem 1rem;
+  display: flex; flex-direction: column; gap: 0.5rem;
+}
+.sidebar h3 { margin-bottom: 1rem; }
+.sidebar a {
+  color: #9ca3af; text-decoration: none; padding: 0.5rem 0.75rem; border-radius: 0.4rem;
+}
+.sidebar a.active, .sidebar a:hover { background: #1f2937; color: #fff; }
+
+.admin-main { flex: 1; padding: 1.5rem 2rem; }
+.stats-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem; margin-top: 1rem;
+}
+.stat-card {
+  background: #fff; padding: 1rem; border-radius: 0.75rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* forms & tables */
+.admin-form {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 1.5rem;
+}
+.admin-form input, .admin-form button {
+  padding: 0.5rem 0.7rem; border-radius: 0.4rem; border: 1px solid #d1d5db;
+}
+.admin-form button {
+  border: none; background: #2563eb; color: #fff; cursor: pointer;
+}
+
+.admin-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 0.75rem; overflow: hidden; }
+.admin-table th, .admin-table td { padding: 0.6rem 0.75rem; border-bottom: 1px solid #e5e7eb; font-size: 0.9rem; }
+.admin-table th { background: #f3f4f6; text-align: left; }
+
+.admin-gallery {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.75rem; margin-top: 1rem;
+}
+.admin-gallery img { width: 100%; border-radius: 0.5rem; }

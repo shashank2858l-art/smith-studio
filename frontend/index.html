@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smith Studio - Professional Photography</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Smith Studio</div>
+      <input id="searchInput" class="search-box" placeholder="Ask Smith Studio AI...">
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html">Book Now</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Capture Your Story</h1> 
+      <h1>With </h1>
+      <h1>Smith Studio</h1>
+      <p>Pre-wedding, marriage, baby shower & more with premium cameras and drones.</p>
+      <a href="book.html" class="btn-primary">Book Your Shoot</a>
+    </div>
+  </header>
+
+  <section id="services" class="section">
+    <h2 class="section-title">Our Services</h2>
+    <div id="servicesGrid" class="card-grid"></div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">AI Search</h2>
+    <p class="section-subtitle">Type a question above and press Enter to get instant help.</p>
+    <div id="aiResult" class="ai-result"></div>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="js/gemini-search.js"></script>
+</body>
+</html>

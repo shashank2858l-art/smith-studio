@@ -1,0 +1,64 @@
+<!---<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manage Gallery - Smith Studio</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h3>Smith Studio</h3>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="equipment.html">Equipment</a>
+      <a href="orders.html">Bookings</a>
+    </aside>
+    <main class="admin-main">
+      <h2>Gallery</h2>
+      <form id="galleryForm" class="admin-form" enctype="multipart/form-data">
+        <input name="title" placeholder="Title" required>
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Upload</button>
+      </form>
+      <div id="adminGallery" class="admin-gallery"></div>
+    </main>
+  </div>
+  <script src="js/admin.js"></script>
+</body>
+</html>
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manage Gallery - Smith Studio</title>
+  <link rel="stylesheet" href="/admin/css/admin.css">
+</head>
+<body class="admin-body">
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h3>Smith Studio</h3>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="equipment.html">Equipment</a>
+      <a href="orders.html">Bookings</a>
+    </aside>
+    <main class="admin-main">
+      <h2>Gallery</h2>
+      <form id="galleryForm" class="admin-form" enctype="multipart/form-data">
+        <input name="title" placeholder="Title" required>
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Upload</button>
+      </form>
+      <div id="adminGallery" class="admin-gallery"></div>  <!-- ← MUST BE HERE -->
+    </main>
+  </div>
+  <script src="/admin/js/admin.js"></script>
+</body>
+</html>

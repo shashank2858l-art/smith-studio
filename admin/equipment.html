@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipment - Smith Studio</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h3>Smith Studio</h3>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="equipment.html" class="active">Equipment</a>
+      <a href="orders.html">Bookings</a>
+    </aside>
+    <main class="admin-main">
+      <h2>Equipment</h2>
+      <form id="equipmentForm" class="admin-form">
+        <input name="name" placeholder="Equipment name" required>
+        <input name="type" placeholder="Type (Camera, Drone...)" required>
+        <button type="submit">Add</button>
+      </form>
+      <table class="admin-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Type</th></tr></thead>
+        <tbody id="equipmentTableBody"></tbody>
+      </table>
+    </main>
+  </div>
+  <script src="js/admin.js"></script>
+</body>
+</html>

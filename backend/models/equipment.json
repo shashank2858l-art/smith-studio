@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Canon R5", "type": "Camera" },
+  { "id": 2, "name": "DJI Mavic 3", "type": "Drone" },
+  { "id": 3, "name": "Sony FX3", "type": "Video Camera" }
+]

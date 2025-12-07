@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pre-Wedding Shoot",
+    "price": 25000,
+    "desc": "Romantic outdoor and studio sessions."
+  },
+  {
+    "id": 2,
+    "name": "Marriage Photography",
+    "price": 45000,
+    "desc": "Full wedding day coverage."
+  },
+  {
+    "id": 3,
+    "name": "Baby Shower",
+    "price": 15000,
+    "desc": "Beautiful family celebrations."
+  },
+  {
+    "id": 4,
+    "name": "drone shoot",
+    "price": "60000",
+    "desc": "top video"
+  }
+]
